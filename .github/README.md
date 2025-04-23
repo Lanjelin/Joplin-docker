@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://joplinapp.org/images/logo-text.svg" width="110", height="110">
+    <img src="https://raw.githubusercontent.com/Lanjelin/docker-templates/main/lanjelin/images/joplin.png" width="110", height="110">
 </div>
 <h1 align="center">Joplin-Docker</h1>
 
