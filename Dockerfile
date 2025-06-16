@@ -3,7 +3,7 @@ FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntujammy
 LABEL maintainer="lanjelin"
 
 ENV TITLE=Joplin-Docker
-ENV VERSION=3.2.13
+ENV VERSION=3.3.13
 
 # add local files
 COPY /root /

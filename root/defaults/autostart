@@ -1,2 +1,5 @@
 #!/bin/bash
-joplin --no-sandbox
+dbus-daemon --session --address=unix:path=/tmp/dbus_socket --fork
+export DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus_socket
+export DBUS_SYSTEM_BUS_ADDRESS=unix:path=/tmp/dbus_socket
+joplin --no-sandbox --disable-gpu
